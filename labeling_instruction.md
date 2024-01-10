@@ -32,8 +32,6 @@ This will be used when the waist belt of the passenger is not visible. This is u
 
  **WaistBeltNotVisible**
 
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-
 * https://analytics-kpis.netradyne.com/video?avid=034ff514-a83e-4bcd-bc94-f35d3ed41c63 DAY
 
 #### DETECTED_MULTIPLE_PASSENGER
@@ -64,11 +62,9 @@ Face is looking sideways because of position of device mount.
 ### Valid Examples
 Whenever a passenger is not wearing a seatbelt or is wearing their seatbelt incorrectly, an alert should be raised. The tags below will be used exclusively for Valid labeled videos. 
 
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-* https://analytics-kpis.netradyne.com/video?aaid=433c7999-145b-465b-b7df-c932ca550042
-* https://analytics-kpis.netradyne.com/video?aaid=1cbcc5b5-3215-4be7-91f5-b787437cadea
-* https://analytics-kpis.netradyne.com/video?aaid=3bc3ac7f-4694-4dc2-a5a1-7fc2dcf73b72
-* https://analytics-kpis.netradyne.com/video?aaid=123e6d83-abdb-45eb-b8c0-1fd5104a6411
+* https://analytics-kpis.netradyne.com/video?avid=45c49790-ffe9-4d24-912c-ba659a20d0b0
+* https://analytics-kpis.netradyne.com/video?avid=31bafce9-78f6-4606-83cb-c16d38c40d91
+
 
  
 #### SEATBELT_STATUS_CHANGED
@@ -80,10 +76,9 @@ This tag will be used if the passenger did not originally have their seatbelt on
 
 #### LOOSE_SEATBELT
 If the seatbelt is loose around the upper body. Tag the corresponding false alerts as **LooseSeatbelt**
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-* https://analytics-kpis.netradyne.com/video?aaid=4987f61e-8988-43bc-be4d-05597521f055
-* https://analytics-kpis.netradyne.com/video?aaid=ac5c4b2d-ed8d-43b3-875b-24c21e229eb2
-* https://analytics-kpis.netradyne.com/video?aaid=f601a232-9b2b-4e63-8286-2aafae41b199
+* https://analytics-kpis.netradyne.com/video?avid=d15d5175-09c4-440d-a8b1-6bbc81276458
+* https://analytics-kpis.netradyne.com/video?avid=8d6d3b44-3b5f-4608-862e-d8fd637f4ea5
+
 
 #### WEARING_WRONG
 If the seatbelt is not worn properly. The passenger is wearing their seatbelt in a non-conventional (uncommon) way. A common example you might see is when the driver is wearing their seatbelt under the arm etc. If an alert is raised in such cases, tag the corresponding false alerts as 
@@ -96,27 +91,23 @@ If the seatbelt is not worn properly. The passenger is wearing their seatbelt in
 
 #### WAIST_BELT_NOT_WORN
 This tag will be used when we are able to see the waist of the driver AND the belt that normally crosses over the waist is not properly worn. A common scenario that you may come across for this tag is when the passenger only has the shoulder strap of the seatbelt on and sitting on the waist strap. Below are a few examples for this tag. **WaistBeltNotWorn**
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-* https://analytics-kpis.netradyne.com/video?aaid=6f51d929-b828-4b31-b226-72e0b3a4b43f
-* https://analytics-kpis.netradyne.com/video?aaid=a5ad6d96-c240-4c25-8ff8-b7335af3cfff
+* https://analytics-kpis.netradyne.com/video?avid=10a3d0ee-9024-4d68-917d-755e104436b9
+
 
 ### Invalid Examples
 Whenever a passenger is wearing a seatbelt, but an alert was raised. The tags below will be used exclusively for Invalid labeled videos. 
  
 #### PARTIAL_SEATBELT_OCCLUDED
 Sometimes the seatbelt can be slightly occluded by objects in front of the passenger. This can range from the passenger's arm covering a portion of the seatbelt, to clothing, or any object that would only partially cover the seatbelt of the passenger. Tag these invalid scenarios as **PartialSeatbeltOccluded**
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-* https://analytics-kpis.netradyne.com/video?aaid=f1b0076c-b31c-4e46-802a-29d03c43ffd3
-* https://analytics-kpis.netradyne.com/video?aaid=9b4de68c-7bd5-4c32-8ae8-a0d71ad65701
-* https://analytics-kpis.netradyne.com/video?aaid=73862a1b-6da7-42f2-88be-522888f0440f
+* https://analytics-kpis.netradyne.com/video?avid=ebb3950e-a02b-4afd-bb4e-6db8dd0921bf
+* https://analytics-kpis.netradyne.com/video?avid=080c234f-56dd-4b73-b20d-a1b3a361af35
+
  
 #### COMPLETE_SEATBELT_OCCLUDED
 If most of the seatbelt region on the passenger's torso/upper body is not visible. Tag these invalid scenarios as **CompleteSeatbeltOccluded**
+* https://analytics-kpis.netradyne.com/video?avid=ec062f7a-44c6-41f1-ab66-11817d4f7c77
+* https://analytics-kpis.netradyne.com/video?avid=b71ab871-e4f4-4994-8352-8bf3c9695b77
 
-*Video examples given below are of driver seatbelt case , Beacuse passenger seatbelt examples are not available . 
-* https://analytics-kpis.netradyne.com/video?aaid=ec0cf590-a98e-4781-960d-3a0656145a29
-* https://analytics-kpis.netradyne.com/video?aaid=dfbf84cb-ee63-491a-8f0d-e228a82bb5b4
-* https://analytics-kpis.netradyne.com/video?aaid=a4d780df-7687-4b88-849f-04e3b5346f00
 
 #### SIMILAR_SHIRT_COLOR
 This tag will be used when the color of the seatbelt and the passenger's clothes are very similar. 
